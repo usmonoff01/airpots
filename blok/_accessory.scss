@@ -134,6 +134,7 @@
   .accessory {
     &__cards {
       flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
