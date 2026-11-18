@@ -1,0 +1,139 @@
+.accessory {
+  &__cards {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  &__text {
+    margin-top: 50px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #838383;
+  }
+  &__card {
+    width: 300px;
+    height: 377.65px;
+    background: #f7f7f7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    i {
+      font-size: 25px;
+      &:active {
+        color: red;
+      }
+    }
+    &_img {
+      padding: 0 20px;
+      margin: auto;
+    }
+    &_sentr {
+      display: flex;
+      justify-content: space-between;
+      &__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      &_text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #1c1c27;
+      }
+      &__left_text {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #ffa542;
+      }
+      &__left_text1 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+        text-decoration-line: line-through;
+
+        color: #ffce7f;
+      }
+      &__left_text3 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19.1687px;
+        line-height: 23px;
+        /* identical to box height */
+
+        color: #df6464;
+      }
+      &__left_text4 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        /* identical to box height */
+        text-decoration-line: line-through;
+        color: #df6464;
+      }
+      &__left_text5 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16.2934px;
+        line-height: 20px;
+
+        color: #df6464;
+      }
+      &_bottom {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        &_text {
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 17px;
+          line-height: 21px;
+          /* identical to box height */
+
+          color: #838383;
+        }
+      }
+    }
+  }
+}
+
+#accessory__card_sentr_bottom_i {
+  color: #ffce7f;
+}
+#accessory__icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1100px) {
+  .accessory {
+    &__cards {
+      flex-wrap: wrap;
+    }
+  }
+}
